@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e015cd05-7cea-496f-835c-2c9b3a218750" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +181,7 @@
       <workItem from="1572623149504" duration="117000" />
       <workItem from="1572623478804" duration="72000" />
       <workItem from="1572623576115" duration="3187000" />
-      <workItem from="1572648475681" duration="7359000" />
+      <workItem from="1572648475681" duration="7605000" />
     </task>
     <servers />
   </component>

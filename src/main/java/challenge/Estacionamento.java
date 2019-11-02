@@ -22,6 +22,7 @@ public class Estacionamento {
                     Carro atual = vagas.get(i);
                     if(atual.getMotorista().getIdade() < 55){
                         substituirCarro(carro, i);
+                        break;
                     }
                 }
             }
