@@ -47,7 +47,6 @@ public class EstacionamentoTest {
                 .withPontos(-1);
     }
 
-
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoNaoTemPlaca() {
         Carro.builder().withCor(Cor.COLORIDO).build();

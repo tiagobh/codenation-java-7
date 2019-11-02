@@ -14,7 +14,6 @@ public class Motorista {
     private final String habilitacao;
 
     private Motorista(String nome, int idade, int pontos, String habilitacao) {
-        validarTudo(nome, idade, pontos, habilitacao);
         this.nome = nome;
         this.idade = idade;
         this.pontos = pontos;
@@ -84,31 +83,29 @@ public class Motorista {
         }
 
         public MotoristaBuilder withNome(String nome) {
-            validarNome(nome);
             this.nome = nome;
             return this;
         }
 
         public MotoristaBuilder withIdade(int idade) {
-            validarIdade(idade);
+            validarValorNegativo(idade);
             this.idade = idade;
             return this;
         }
 
         public MotoristaBuilder withPontos(int pontos) {
-            validarPontos(pontos);
+            validarValorNegativo(pontos);
             this.pontos = pontos;
             return this;
         }
 
         public MotoristaBuilder withHabilitacao(String habilitacao) {
-            validarHabilitacao(habilitacao);
             this.habilitacao = habilitacao;
             return this;
         }
 
-
         public Motorista build() {
+            validarTudo(nome, idade, pontos, habilitacao);
             return new Motorista(nome, idade, pontos, habilitacao);
         }
     }
@@ -117,26 +114,17 @@ public class Motorista {
         if(Objects.isNull(nome)) throw new NullPointerException("Nome nulo");
         if(nome.isEmpty()) throw new IllegalArgumentException("Nome vasio");
     }
-
-    private static void validarIdade(int idade){
-        if(Objects.isNull(idade)) throw new NullPointerException("Idade nula");
-        if(idade <= 0 || idade < 18) throw new IllegalArgumentException("Menor de idade");
-    }
-
-    private static void validarPontos(int pontos){
-        if(Objects.isNull(pontos)) throw new NullPointerException("Pontos nulo");
-        if(pontos < 0 || pontos > 20) throw new IllegalArgumentException("Pontos invalidos");
-    }
-
     private static void validarHabilitacao(String habilitacao){
         if(Objects.isNull(habilitacao)) throw new NullPointerException("Habilitação nula");
         if(habilitacao.isEmpty()) throw new IllegalArgumentException("Menor de idade");
     }
 
+    private static void validarValorNegativo(int valor){
+        if(valor < 0) throw new IllegalArgumentException("Número negativo");
+    }
+
     private static void validarTudo(String nome, int idade, int pontos, String habilitacao){
         validarNome(nome);
-        validarIdade(idade);
-        validarPontos(pontos);
         validarHabilitacao(habilitacao);
     }
 }

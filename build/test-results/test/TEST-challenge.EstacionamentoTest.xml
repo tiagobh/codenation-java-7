@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="challenge.EstacionamentoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-01T16:35:53" hostname="BHZNOT063" time="22.227">
-  <properties/>
-  <testcase name="deveRetorarErroQuandoPontosNegativos" classname="challenge.EstacionamentoTest" time="22.227"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

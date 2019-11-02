@@ -73,11 +73,13 @@ public class Carro {
         }
 
         public CarroBuilder withMotorista(Motorista motorista) {
+            validarMotorista(motorista);
             this.motorista = motorista;
             return this;
         }
 
         public CarroBuilder withPlaca(String placa) {
+            validarPlaca(placa);
             this.placa = placa;
             return this;
         }
@@ -88,7 +90,36 @@ public class Carro {
         }
 
         public Carro build() {
+            validarTudo(motorista, placa, cor);
             return new Carro(motorista, placa, cor);
         }
+
+    }
+
+    private static void validarMotorista(Motorista motorista){
+        if(Objects.isNull(motorista) || motorista.getIdade() < 18 || !pontosValidos(motorista.getPontos()))
+            throw new EstacionamentoException("Motorista nulo");
+    }
+
+    private static void validarPlaca(String placa){
+        if(Objects.isNull(placa)) throw new NullPointerException("Placa nula");
+        if(placa.isEmpty()) throw new IllegalArgumentException("Placa vasia");
+    }
+
+    private static void validarCor(Cor cor){
+        if(Objects.isNull(cor)) throw new NullPointerException("Cor está nula");
+    }
+
+    private static boolean pontosValidos(int pontos){
+        if(Objects.isNull(pontos) || pontos < 1 || pontos > 20 )
+            return false;
+        return true;
+    }
+
+
+    private static void validarTudo(Motorista motorista, String placa, Cor cor){
+        validarPlaca(placa);
+        validarCor(cor);
+        validarMotorista(motorista);
     }
 }

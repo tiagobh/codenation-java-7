@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e015cd05-7cea-496f-835c-2c9b3a218750" name="Default Changelist" comment="" />
+    <list default="true" id="e015cd05-7cea-496f-835c-2c9b3a218750" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +20,25 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T1MRsaERTPtAIG2azQoUouYBSN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/clientes/american_tower/projetos/sicop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -40,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EstacionamentoTest.deveRetorarErroQuandoPontosNegativos">
-    <configuration name="EstacionamentoTest.deveRetorarErroQuandoIdadeNegativa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EstacionamentoTest">
+    <configuration name="EstacionamentoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveRetorarErroQuandoIdadeNegativa&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -61,12 +83,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EstacionamentoTest.deveRetorarErroQuandoPontosNegativos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EstacionamentoTest.casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveRetorarErroQuandoPontosNegativos&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -81,12 +103,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemHabilitacao" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemHabilitacao&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -101,12 +123,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemNome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EstacionamentoTest.deveEstacionar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemNome&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveEstacionar&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EstacionamentoTest.naoDeveUltrapassarEstacionamento" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.naoDeveUltrapassarEstacionamento&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EstacionamentoTest.deveRetorarErroQuandoPontosNegativos" />
-        <item itemvalue="Gradle.EstacionamentoTest.deveRetorarErroQuandoIdadeNegativa" />
-        <item itemvalue="Gradle.EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemHabilitacao" />
-        <item itemvalue="Gradle.EstacionamentoTest.deveRetornarErroQuandoMotoristaNaoTemNome" />
+        <item itemvalue="Gradle.EstacionamentoTest" />
+        <item itemvalue="Gradle.EstacionamentoTest.naoDeveUltrapassarEstacionamento" />
+        <item itemvalue="Gradle.EstacionamentoTest.casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair" />
+        <item itemvalue="Gradle.EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga" />
+        <item itemvalue="Gradle.EstacionamentoTest.deveEstacionar" />
       </list>
     </recent_temporary>
   </component>
@@ -142,35 +185,47 @@
       <updated>1572623143182</updated>
       <workItem from="1572623149504" duration="117000" />
       <workItem from="1572623478804" duration="72000" />
-      <workItem from="1572623576115" duration="2613000" />
+      <workItem from="1572623576115" duration="3187000" />
+      <workItem from="1572648475681" duration="7359000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
+          <line>107</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/challenge/Motorista.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java</url>
+          <line>9</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/challenge/EstacionamentoTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
+          <line>137</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
